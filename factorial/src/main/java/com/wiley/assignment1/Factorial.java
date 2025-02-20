@@ -36,8 +36,10 @@ public class Factorial {
 
 		 this.printStream.print("Enter a number between 1 and 10 (inclusive) please:");
 
+
 		 String stringNumber = scanner.nextLine();
 
+		 //Converting string input from scanner to an integer and use try/catch block to prevent throwing any errors.
 		 try{
 			 num = Integer.parseInt(stringNumber);
 			 if (num>=1 && num <=10){
@@ -62,7 +64,8 @@ public class Factorial {
 		  
 		  - All code should be inside the placeholders below.
 		*/
-		 
+
+		 //through incrementation, the numbers are directly multiplied to result which gives the factorial answer
 		int result = 1;
 		//YOUR CODE STARTS HERE
 		for (int i =1;i<=num;i++){
