@@ -65,7 +65,7 @@ public class Factorial {
 		  - All code should be inside the placeholders below.
 		*/
 
-		 //through incrementation, the numbers are directly multiplied to result which gives the factorial answer
+		 //through incrementation, the numbers from 1 to num are directly multiplied to result which gives the factorial answer
 		int result = 1;
 		//YOUR CODE STARTS HERE
 		for (int i =1;i<=num;i++){
