@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 
 public class Factorial {
-	
 	 private Scanner scanner;
 	 private PrintStream printStream;
 	 private int num;
